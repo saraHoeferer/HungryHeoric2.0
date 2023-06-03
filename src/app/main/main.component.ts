@@ -5,11 +5,7 @@ import { CommonModule } from '@angular/common';
   selector: 'app-main',
   standalone: true,
   imports: [CommonModule],
-  template: `
-    <p>
-      main works!
-    </p>
-  `,
+  templateUrl: './main.component.html',
   styleUrls: ['./main.component.css']
 })
 export class MainComponent {
