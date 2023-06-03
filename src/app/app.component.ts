@@ -7,6 +7,9 @@ import { RouterModule} from '@angular/router';
   imports: [ RouterModule],
   template: `
   <main>
+    <header class="brand-name">
+      Navigation-Placeholder
+    </header>
     <section class="content">
       <router-outlet></router-outlet>
     </section>
